@@ -69,4 +69,5 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy out --project-name=subdir
           workingDirectory: web
+          packageManager: npx
 
